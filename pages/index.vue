@@ -1,0 +1,4 @@
+<template>
+    <HomeContent/>
+    <HomeAbout/>
+</template>
