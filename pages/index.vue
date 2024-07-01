@@ -1,4 +1,3 @@
 <template>
     <HomeContent/>
-    <HomeAbout/>
 </template>

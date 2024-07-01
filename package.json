@@ -1,5 +1,5 @@
 {
-  "name": "Web-truyen",
+  "name": "web-truyen",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.17.0",
     "@nuxtjs/seo": "^2.0.0-rc.10",
     "@nuxtjs/sitemap": "^5.2.0",
     "@pinia/nuxt": "^0.5.1",

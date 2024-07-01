@@ -61,11 +61,11 @@ export default defineNuxtConfig({
                 {rel: 'icon', type: 'image/x-icon', href: 'https://monkeyd.vn/images/favicon/android-icon-192x192.png'},
                 {rel: 'shortcut icon', href: 'https://monkeyd.vn/images/favicon/android-icon-192x192.png'},
                 {rel: 'canonical', href: process.env.NUXT_PUBLIC_SITE_URL},
-                {
-                    rel: 'stylesheet',
-                    type: 'text/css',
-                    href: 'https://monkeyd.vn/assets/app.min.css?ver=2.0.3'
-                },
+                // {
+                //     rel: 'stylesheet',
+                //     type: 'text/css',
+                //     href: 'https://monkeyd.vn/assets/app.min.css?ver=2.0.3'
+                // },
                 {
                     rel: 'dns-prefetch',
                     href: '//fonts.googleapis.com'
@@ -143,7 +143,7 @@ export default defineNuxtConfig({
         }
     },
     modules: [
-        "@nuxt/ui",
+        // "@nuxt/ui",
         "@nuxtjs/seo",
         '@pinia/nuxt',
     ],
